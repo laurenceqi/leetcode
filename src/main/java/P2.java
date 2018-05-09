@@ -4,9 +4,7 @@ import java.math.BigInteger;
  * Created by qilongji on 18/5/9.
  */
 public class P2 {
-    /**
-     * Definition for singly-linked list.
-     */
+
     static class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             if(l1 == null) return l2;
@@ -80,9 +78,6 @@ public class P2 {
     }
 
     public static void main(String[] args) {
-        //
-
         System.out.println(new Solution().getValue(new Solution().getList(BigInteger.valueOf(753865680l))));
-      //  System.out.println(new Solution().getList(BigInteger.valueOf(753865680l)));
     }
 }
